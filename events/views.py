@@ -7,14 +7,15 @@ from rest_framework import generics
 from rest_framework.response import Response
 from rest_framework import status
 
-'''class EventList(generics.ListCreateAPIView): # for just GET request
+class EventList(generics.ListCreateAPIView): # for just GET request
     queryset = Event.objects.all()
-    serializer_class = EventSerializer'''
+    serializer_class = EventSerializer
+
 class EventDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset = Event.objects.all()
     serializer_class = EventSerializer
 
-class EventList(APIView):
+'''class EventDetails(APIView):
     """
     List all Events, or create a new Event.
     """
@@ -23,17 +24,10 @@ class EventList(APIView):
         serializer = EventSerializer(Events, many=True)
         return Response(serializer.data)
 
-    def post(self, request, format=None):
-        serializer = EventSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def delete(self, request, pk, format=None):
-        event = self.Events.objects.get(pk=pk)
+    def delete(self, request,pk, format=None):
+        event = Event.objects.get(pk=pk)
         event.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response(status=status.HTTP_204_NO_CONTENT)'''
 
 
 '''class EventDel(APIView):

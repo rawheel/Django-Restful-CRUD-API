@@ -13,3 +13,8 @@
 [0m2021.04.23 05:42:09 WARN  Build server is not auto-connectable.[0m
 [0m2021.04.23 05:42:09 WARN  no build tool detected in workspace 'G:\side projects\Django-Restful-CRUD-API'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 [0m2021.04.23 06:17:04 INFO  shutting down Metals[0m
+[0m2021.05.03 18:14:31 INFO  Started: Metals version 0.10.2 in workspace 'G:\side projects\Django-Restful-CRUD-API' for client vscode 1.55.2.[0m
+[0m2021.05.03 18:14:34 INFO  time: initialize in 3.15s[0m
+[0m2021.05.03 18:14:38 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.03 18:14:38 WARN  no build tool detected in workspace 'G:\side projects\Django-Restful-CRUD-API'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.03 21:53:40 INFO  shutting down Metals[0m
