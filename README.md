@@ -1,5 +1,7 @@
 # Django-Restful-CRUD-API
-Event Registration CRUD RestFul API. 
+Event Registration CRUD RestFul API 👾
+
+<img src="https://miro.medium.com/max/1950/1*25Le7KoMK_z6BIaM8x74RA.png" alt="UMS">
 
 ## Project setup
 ```
