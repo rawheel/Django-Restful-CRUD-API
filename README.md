@@ -29,7 +29,7 @@ django-cors-headers
 ```
 You can install them by one by one ``` pip install  Django==3.1.2 ``` on your terminal or you can create a .txt file and paste all the required Libs with file name requirements.txt and run ``` pip install -r requirements.txt ``` It will install all the libraries at once.
 
-SETUP IS DONE! 😃
+SETUP IS DONE!😃
 
 ### STEP 3
 Run this commnad on terminal in a particular folder to ``` Start django Project ```
