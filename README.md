@@ -15,7 +15,7 @@ python manage.py runserver
 ```
 
 ## Tutorial
-#### STEP 1
+### STEP 1
 Make sure you have python installed in your machine if not, you can install it from here in 2 mins. 
 ```
 https://www.python.org/downloads/
