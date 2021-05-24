@@ -181,7 +181,7 @@ urlpatterns = [
 ]
 urlpatterns = format_suffix_patterns(urlpatterns)
 ```
-Now, goto ``` http://127.0.0.1:8000/api/events/ ``` you can see something like this (not exactly like this but with you schema, you get it right?)
+Now, goto ``` http://127.0.0.1:8000/api/events/ ``` you can see something like this (not exactly like this but with your schema, you get it right?)
 
 <img src="https://learndjango.com/static/images/tutorials/official_drf_tutorial_beginners_guide/hyperlink_snippet.png" alt="UMS">
 
